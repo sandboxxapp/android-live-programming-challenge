@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingVertical="4dp"
+    android:paddingHorizontal="12dp">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -12,7 +14,7 @@
         android:src="@drawable/ic_item_vehicle"/>
 
     <Space
-        android:layout_width="8dp"
+        android:layout_width="12dp"
         android:layout_height="wrap_content" />
 
     <LinearLayout
