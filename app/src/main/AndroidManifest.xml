@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SWAPI">
         <activity
-            android:name=".MainActivity"
+            android:name=".transportation.TransportationListActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SWAPI.NoActionBar">
