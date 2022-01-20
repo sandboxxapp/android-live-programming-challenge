@@ -21,19 +21,19 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/item_name"
+            android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Name" />
 
         <TextView
-            android:id="@+id/item_model"
+            android:id="@+id/tv_model"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Model" />
 
         <TextView
-            android:id="@+id/item_capacity"
+            android:id="@+id/tv_capacity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Capacity" />
