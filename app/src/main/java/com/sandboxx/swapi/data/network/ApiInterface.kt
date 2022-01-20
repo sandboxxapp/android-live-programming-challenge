@@ -1,6 +1,7 @@
 package com.sandboxx.swapi.data.network
 
 import com.sandboxx.swapi.data.json.VehicleJson
+import com.sandboxx.swapi.data.json.VehiclesListResult
 import com.squareup.moshi.Moshi
 import retrofit2.Call
 import retrofit2.Retrofit
@@ -9,7 +10,7 @@ import retrofit2.http.GET
 
 interface ApiInterface {
     @GET("vehicles/")
-    fun vehiclesList() : Call<List<VehicleJson>>
+    fun vehiclesList() : Call<VehiclesListResult>
 
     companion object {
         var apiInterface: ApiInterface? = null
